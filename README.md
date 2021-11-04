@@ -26,11 +26,11 @@
 ## Uso
 
 1. Puede correr  el script packtoolsv_2.0  adentro de la carpeta pack_tools2.0,
- o bien en cualquier ruta adentro de termux,
- con la concha ./packtoolsv_2.0 o bien de esta forma packtoolsv_2.0
+o bien en cualquier ruta adentro de termux,
+con la concha ./packtoolsv_2.0 o bien de esta forma packtoolsv_2.0
 
  
-Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
+[Canal de telegram](https://t.me/Vnom24)
 
 
 
