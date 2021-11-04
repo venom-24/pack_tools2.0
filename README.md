@@ -30,7 +30,7 @@ o bien en cualquier ruta adentro de termux,
 con la concha ./packtoolsv_2.0 o bien de esta forma packtoolsv_2.0
 
  
-[Canal de telegram](https://t.me/Vnom24)
+    [Canal de telegram](https://t.me/Vnom24)
 
 
 
