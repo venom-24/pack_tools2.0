@@ -29,8 +29,8 @@
  o bien en cualquier ruta adentro de termux,
  con la concha ./packtoolsv_2.0 o bien de esta forma packtoolsv_2.0
 
- [ Canal de telegram ] ( www.facebook.com )
-
+ 
+Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
 
 
 
