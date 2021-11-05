@@ -32,7 +32,7 @@ con la concha ./packtoolsv_2.0 o bien de esta forma packtoolsv_2.0
  
     [Canal de telegram](https://t.me/Vnom24)
 
-    [Esta es una imagen](https://i.picasion.com/pic91/32ac73c3a3a612494d889d14eedc0fdf.gif)
+    ¡[Esta es una imagen](https://i.picasion.com/pic91/32ac73c3a3a612494d889d14eedc0fdf.gif)
 
 
 
