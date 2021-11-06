@@ -32,7 +32,7 @@ echo -e "\e[0;31m[03]\033[1;32mStress Testing"
 echo -e "\e[0;31m[04]\033[1;32mExploitation Tools"     
 echo -e "\e[0;31m[05]\033[1;32mInstall Linux Distro"
 echo -e "\e[0;31m[99]\033[1;32mEXIT\033[1;36m"
-echo
+echo""
 echo -n "SELECCIONA UNA OPCION >> "  
 }
 _bannerprincipal
