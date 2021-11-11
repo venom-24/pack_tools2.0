@@ -12,13 +12,13 @@
 6. cd pack_tools2.0;ls
 7. chmod +x INSTALLER packtoolsv_2.0;ls
 8. bash INSTALLER
-9. ./packtoolsv_2.0
+9. ./packtools2.0
 
 ## Uso
 
 1. Puede correr  el script packtoolsv_2.0  adentro de la carpeta pack_tools2.0,
 o bien en cualquier ruta adentro de termux,
-con la concha ./packtoolsv_2.0 o bien de esta forma packtoolsv_2.0
+con la concha ./packtools2.0 o bien de esta forma packtoolsv_2.0
 
  
     [Canal de telegram](https://t.me/Vnom24)
