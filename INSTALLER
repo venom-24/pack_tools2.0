@@ -8,14 +8,8 @@
                 magenta='\033[1;35m'
                 cyan='\033[1;36m'
                 reset='\033[0m'
-cd $HOME
-ls
-rm -rf pack_tools2.0.zip
-cd --
-ls
-cd $HOME/pack_tools2.0
-ls
-cp  packtoolsv_2.0 /data/data/com.termux/files/usr/bin		
+
+cp  packtools2.0 /data/data/com.termux/files/usr/bin		
 printf $cyan
 echo "INSTALANDO REPOSITORIOS"
 printf $reset
@@ -27,7 +21,7 @@ apt install util-linux -y
 apt install openssh -y
 apt install php -y
 apt install figlet -y
-printf $yellow
+printf $green
 figlet -f smslant finalizado
 printf $reset
 
