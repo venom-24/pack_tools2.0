@@ -23,4 +23,4 @@ con la concha ./packtools2.0 o bien de esta forma packtoolsv_2.0
  
     [Canal de telegram](https://t.me/Vnom24)
 
-    [Esta es una imagen](https://i.ibb.co/7yDPHN6/Screenshot-20211105-185917-Termux.jpg/) 
+![Banner_Git](https://i.ibb.co/7yDPHN6/Screenshot-20211105-185917-Termux.jpg/) 
