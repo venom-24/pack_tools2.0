@@ -10,7 +10,7 @@
 4. git clone https://github.com/venom-24/pack_tools2.0.git
 5. ls
 6. cd pack_tools2.0;ls
-7. chmod +x INSTALLER packtoolsv_2.0;ls
+7. chmod +x INSTALLER packtools2.0;ls
 8. bash INSTALLER
 9. ./packtools2.0
 
