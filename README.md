@@ -18,19 +18,26 @@
 <a href="https://www.youtube.com/c/Venom24Termux"><img title="youtube" src="https://img.shields.io/badge/YouTube-VeNOM24-red?style=for-the-badge&logo=Youtube"></a>
 </p>
 
-# **instalacion**
+## Disponible En :
+* TERMUX
 
-0. habra una session en Termux y en el directorio de home escriba los siguientes comandos
+### Probado En :
+* TERMUX
+### Requerimientos :
+* Conexion a internet
+* 0.90 GB Almacenamiento 
 
-1. apt update -y
-2. apt upgrade -y
-3. apt install git -y
-4. git clone https://github.com/venom-24/pack_tools2.0.git
-5. ls
-6. cd pack_tools2.0;ls
-7. chmod +x INSTALLER packtools2.0;ls
-8. bash INSTALLER
-9. ./packtools2.0
+## COMANDOS DE INSTALACION DE PacktoolsV2.0
+
+* ``apt update -y``
+* ``apt upgrade -y``
+* ``apt install git -y``
+* ``git clone https://github.com/venom-24/pack_tools2.0.git``
+* ``ls``
+* ``cd pack_tools2.0;ls``
+* ``chmod +x *;ls``
+* ``bash INSTALLER``
+* ``./packtools2.0``
 
 ## Uso
 
