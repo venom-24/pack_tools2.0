@@ -39,7 +39,12 @@
 * ``bash INSTALLER``
 * ``./packtools2.0``
 
-
+## screenshot
+<br>
+<p align="center">
+<img width="50%" src="https://i.ibb.co/f1qLJpP/Sin-t-tulo65.png"/>
+<img width="48%" src="https://i.ibb.co/mRkSVz4/Sin-t-tulo64.png"/>
+</p>
 
 ## CONECTATE CON NOSOTROS:
 [![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/venom.24.tr)
