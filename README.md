@@ -11,6 +11,13 @@
 <p align="center">
 <img title="banner" src="https://i.ibb.co/n7HJCyh/Sin-t-tulo28.png">
 
+<p align="center">
+<a href=https://github.com/venom-24><img title="github" src="https://img.shields.io/badge/VENOM-24-brightgreen?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="https://www.youtube.com/c/Venom24Termux"><img title="youtube" src="https://img.shields.io/badge/YouTube-VeNOM24-red?style=for-the-badge&logo=Youtube"></a>
+</p>
+
 # **instalacion**
 
 0. habra una session en Termux y en el directorio de home escriba los siguientes comandos
