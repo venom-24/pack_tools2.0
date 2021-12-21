@@ -6,8 +6,10 @@
 <img title="Hecho en mexico" src="https://img.shields.io/badge/Code-Packtools-blue.svg">
 <img title="Hecho en mexico2" src="https://img.shields.io/badge/Version-2.0-blue.svg">
 <img title="Hecho en mexico3" src="https://img.shields.io/badge/Escrito En-Bash-blue.svg">
-
 </p>
+
+<p align="center">
+<img title="banner" src="https://i.ibb.co/n7HJCyh/Sin-t-tulo28.png">
 
 # **instalacion**
 
