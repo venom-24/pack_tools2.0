@@ -3,7 +3,8 @@
 <img src="https://img.shields.io/badge/HECHO%20EN-MEXICO-SCRIPT?colorA=0000ff&colorB=CDCFD2&colorC=ff0000&style=for-the-badge">
 </p>
 <p align="center">
-https://img.shields.io/badge/code-packtools-blue.svg?style=flat-square
+<img src='https://img.shields.io/badge/code-packtools-blue.svg?style=flat-square">
+</p>
 
 
 # **instalacion**
