@@ -27,7 +27,7 @@
 * Conexion a internet
 * 600 MB De Almacenamiento 
 
-## COMANDOS DE INSTALACION DE PacktoolsV2.0
+## COMANDOS DE INSTALACION EN TERMUX:
 
 * ``apt update -y``
 * ``apt upgrade -y``
@@ -41,7 +41,7 @@
 
 
 
-## Conectate con nosotros
+## CONECTATE CON NOSOTROS:
 [![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/venom.24.tr)
 <a href="https://www.youtube.com/c/Venom24Termux"><img title="youtube" src="https://img.shields.io/badge/YouTube-VeNOM24-red?style=for-the-badge&logo=Youtube">
 </a>
