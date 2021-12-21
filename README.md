@@ -25,7 +25,7 @@
 * TERMUX
 ### Requerimientos :
 * Conexion a internet
-* 0.90 GB Almacenamiento 
+* 600 MB De Almacenamiento 
 
 ## COMANDOS DE INSTALACION DE PacktoolsV2.0
 
