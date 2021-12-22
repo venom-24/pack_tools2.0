@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img title="banner" src="https://i.ibb.co/n7HJCyh/Sin-t-tulo28.png">
+<img width="80%" title="banner" src="https://i.ibb.co/n7HJCyh/Sin-t-tulo28.png">
 
 <p align="center">
 <a href=https://github.com/venom-24><img title="github" src="https://img.shields.io/badge/VENOM-24-brightgreen?style=for-the-badge&logo=github"></a>
