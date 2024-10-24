@@ -1,0 +1,548 @@
+#! /data/data/com.termux/files/usr/bin/bash
+
+#VARIABLES     	
+#Data 13/08/2024
+#Autor VeNOM24
+                red='\033[1;31m'      
+                green='\033[1;32m'        
+                yellow='\033[1;33m'                  
+                blue='\033[1;34m'            
+                magenta='\033[1;35m'     
+                cyan='\033[1;36m'        
+                reset='\033[0m'
+
+#funcion que muestra el menu principal		
+
+function _bannerprincipal(){
+clear	
+echo -e "\e[1;36m"
+echo "      
+░█▀█░█▀█░█▀▀░█░█░▀█▀░█▀█░█▀█░█░░░█▀▀░▀▀▄░░░░▄▀▄
+░█▀▀░█▀█░█░░░█▀▄░░█░░█░█░█░█░█░░░▀▀█░▄▀░░░░░█/█
+░▀░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░░░▀░
+"	
+echo -e "\e[1;34mAUTOR   :\033[1;31m [\033[1;36mVENOM24\033[1;31m]"
+echo
+echo -e "\e[1;34mTOOL    :\033[1;31m [\033[1;36mPACKTOOLS2.0\033[1;31m]"
+echo 
+echo -e "\e[1;34mVERSION :\033[1;31m [\033[1;36m2.0 FULL\033[1;31m]"
+echo
+echo -e "\e[1;31m###############################################"
+echo -e "\e[1;31m###############################################"
+echo
+echo
+echo -e "\e[0;31m[\033[1;0m01\033[1;31m]\033[1;36m Information Gathering"
+echo -e "\e[0;31m[\033[1;0m02\033[1;31m]\033[1;36m Vulnerability Analysis"
+echo -e "\e[0;31m[\033[1;0m03\033[1;31m]\033[1;36m Stress Testing"
+echo -e "\e[0;31m[\033[1;0m04\033[1;31m]\033[1;36m Exploitation Tools"     
+echo -e "\e[0;31m[\033[1;0m05\033[1;31m]\033[1;36m Install Linux Distro"
+echo -e "\e[0;31m[\033[1;0m99\033[1;31m]\033[1;36m EXIT\033[1;36m"
+echo
+echo -n -e "\e[1;36m PACKTOOLS \033[1;31m>> \033[0m"  
+}
+_bannerprincipal
+
+#funcion que muestra el primer submenu
+
+function _submenu1(){ 
+clear
+echo -e "\e[1;36m"
+echo "
+░█▀█░█▀█░█▀▀░█░█░▀█▀░█▀█░█▀█░█░░░█▀▀░▀▀▄░░░░▄▀▄
+░█▀▀░█▀█░█░░░█▀▄░░█░░█░█░█░█░█░░░▀▀█░▄▀░░░░░█/█
+░▀░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░░░▀░   
+"	
+echo 
+
+echo -e "\e[0;31m[\033[1;0m01\033[1;31m]\033[1;36m Nmap"
+echo -e "\e[0;31m[\033[1;0m02\033[1;31m]\033[1;36m Red_Hawck"
+echo -e "\e[0;31m[\033[1;0m03\033[1;31m]\033[1;36m IPGeolocation"
+echo -e "\e[0;31m[\033[1;0m04\033[1;31m]\033[1;36m Th3inspector"
+echo -e "\e[0;31m[\033[1;0m05\033[1;31m]\033[1;36m PhoneInfoga"
+echo -e "\e[0;31m[\033[1;0m06\033[1;31m]\033[1;36m Evil-Url"
+echo -e "\e[0;31m[\033[1;0m07\033[1;31m]\033[1;36m Osif"
+echo -e "\e[0;31m[\033[1;0m08\033[1;31m]\033[1;36m Ngrok"
+echo -e "\e[0;31m[\033[1;0m99\033[1;31m]\033[1;36m MENU\033[1;36m"
+echo
+echo -n -e "\e[1;36m PACKTOOLS \033[1;31m>> \033[0m"
+} 
+
+#funcion que muestra el submenu2
+function _submenu2(){
+clear
+echo -e "\e[1;36m"
+echo "
+░█▀█░█▀█░█▀▀░█░█░▀█▀░█▀█░█▀█░█░░░█▀▀░▀▀▄░░░░▄▀▄
+░█▀▀░█▀█░█░░░█▀▄░░█░░█░█░█░█░█░░░▀▀█░▄▀░░░░░█/█
+░▀░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░░░▀░
+"                                                  
+echo 
+
+echo -e "\e[0;31m[\033[1;0m01\033[1;31m]\033[1;36m Nmap"
+echo -e "\e[0;31m[\033[1;0m02\033[1;31m]\033[1;36m Sqlmap"
+echo -e "\e[0;31m[\033[1;0m03\033[1;31m]\033[1;36m Sqliscan"
+echo -e "\e[0;31m[\033[1;0m04\033[1;31m]\033[1;36m IPscan"
+echo -e "\e[0;31m[\033[1;0m05\033[1;31m]\033[1;36m Google-Dorks"
+echo -e "\e[0;31m[\033[1;0m99\033[1;31m]\033[1;36m MENU\033[1;36m"
+echo
+echo -n -e "\e[1;36m PACKTOOLS \033[1;31m>> \033[0m"
+} 
+
+#funcion que muestra el tercer menu
+function _submenu3(){
+clear  
+echo -e "\e[1;36m"
+echo "
+░█▀█░█▀█░█▀▀░█░█░▀█▀░█▀█░█▀█░█░░░█▀▀░▀▀▄░░░░▄▀▄
+░█▀▀░█▀█░█░░░█▀▄░░█░░█░█░█░█░█░░░▀▀█░▄▀░░░░░█/█
+░▀░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░░░▀░     
+"                                             
+echo 
+
+echo -e "\e[0;31m[\033[1;0m01\033[1;31m]\033[1;36m Xerxes"
+echo -e "\e[0;31m[\033[1;0m02\033[1;31m]\033[1;36m Hammer"
+echo -e "\e[0;31m[\033[1;0m03\033[1;31m]\033[1;36m Hulk"
+echo -e "\e[0;31m[\033[1;0m99\033[1;31m]\033[1;36m EXIT\033[1;36m"
+echo
+echo -n -e "\e[1;36m PACKTOOLS \033[1;31m>> \033[0m"
+} 
+
+#funcion que muestra el cuarto menu
+function _submenu4(){
+clear   
+echo -e "\e[1;36m"
+echo "
+░█▀█░█▀█░█▀▀░█░█░▀█▀░█▀█░█▀█░█░░░█▀▀░▀▀▄░░░░▄▀▄
+░█▀▀░█▀█░█░░░█▀▄░░█░░█░█░█░█░█░░░▀▀█░▄▀░░░░░█/█
+░▀░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░░░▀░
+"                                                 
+echo 
+
+echo -e "\e[0;31m[\033[1;0m01\033[1;31m]\033[1;36m Metasploit"
+echo -e "\e[0;31m[\033[1;0m02\033[1;31m]\033[1;36m Routersploit"
+echo -e "\e[0;31m[\033[1;0m03\033[1;31m]\033[1;36m Websploit"
+echo -e "\e[0;31m[\033[1;0m04\033[1;31m]\033[1;36m Txtool"
+echo -e "\e[0;31m[\033[1;0m05\033[1;31m]\033[1;36m Weeman"
+echo -e "\e[0;31m[\033[1;0m06\033[1;31m]\033[1;36m A-Rat"
+echo -e "\e[0;31m[\033[1;0m99\033[1;31m]\033[1;36m EXIT\033[1;36m"
+echo                                                 
+echo -n -e "\e[1;36m PACKTOOLS \033[1;31m>> \033[0m"
+} 
+
+#funcion que muestra el cuarto menu
+function _submenu5(){
+clear
+echo -e "\e[1;36m"
+echo "
+░█▀█░█▀█░█▀▀░█░█░▀█▀░█▀█░█▀█░█░░░█▀▀░▀▀▄░░░░▄▀▄
+░█▀▀░█▀█░█░░░█▀▄░░█░░█░█░█░█░█░░░▀▀█░▄▀░░░░░█/█
+░▀░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░░░▀░
+"                                                  
+echo 
+
+echo -e "\e[0;31m[\033[1;0m01\033[1;31m]\033[1;36m Ubuntu"
+echo -e "\e[0;31m[\033[1;0m02\033[1;31m]\033[1;36m Kali-Linux"
+echo -e "\e[0;31m[\033[1;0m99\033[1;31m]\033[1;36m EXIT\033[1;36m"
+echo
+echo -n -e "\e[1;36m PACKTOOLS \033[1;31m>> \033[0m"
+} 
+	
+opc=0 
+ 	until [ $opc -eq 99 ] 	
+	do
+	_bannerprincipal
+	
+
+              case $opc in
+  01)
+          opc1=0
+        until [ $opc1 -eq 99 ]
+	do
+		
+        case $opc1 in
+        01)echo -e "\e[1;34m"                          
+	echo "nmap"                                    
+	echo "Nmap INSTALADO"
+        sleep 3.0 
+	echo -e "\e[1;36m"
+       _submenu1
+ ;;
+
+02)git clone https://github.com/Tuhinshubhra/RED_HAWK.git  
+echo -e "\e[1;34m"	      
+echo   "cd RED_HAWK;ls"
+echo   "php r_hawk.php" 
+echo   "Instalado  RED_HAWK..."
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+;;
+
+03)git clone https://github.com/maldevel/IPGeoLocation.git
+echo -e "\e[1;34m"
+echo "cd ipgeolocation;ls"
+echo "pip install --upgrade pip"
+echo "pip install -r requirements.txt"
+echo "chmod +x ipgeolocation.py;ls"
+echo "python ipgeolocation.py"
+echo "python ipgeolocation.py -m"
+echo "python ipgeolocation.py -t 192.168.50.100"
+echo "Instalado IPGeoLocation"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+;;
+
+04)git clone https://github.com/Moham3dRiahi/Th3inspector.git
+echo -e "\e[1;34m"	
+echo  "cd Th3inspector;ls"
+echo  "./ainstall.sh"
+echo  " Instalado Th3inspector"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+;;
+
+05)git clone https://github.com/sundowndev/PhoneInfoga.git
+echo -e "\e[1;34m"	
+echo "cd PhoneInfoga;ls"
+echo "chmod +x phoneinfoga.py"
+echo "pip install -r requirements.txt"
+echo "./phoneinfoga.py"
+echo "Instalado PhoneInfoga "
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+
+;;
+06)git clone https://github.com/UndeadSec/EvilURL.git
+echo -e "\e[1;34m"
+echo "cd EvilURL;ls"
+echo "chmod +x evilurl.py;ls"
+echo "python evilurl.py"
+echo "Instalado EvilURL"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+;;
+
+07)git clone https://github.com/ciku370/OSIF.git
+echo -e "\e[1;34m"	
+echo "cd OSIF;ls"
+echo "chmod +x osif.py;ls"
+echo "python2 osif.py"
+echo "Instalado OSIF"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+
+;;
+
+08)git clone https://github.com/venom-24/Tunel-ngrok.git
+echo -e "\e[1;34m"
+echo "cd Tunel-ngrok;ls"
+echo "chmod +x *;ls"
+echo "bash install.sh"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu1
+;;
+
+*)
+_submenu1
+
+
+esac
+read opc1
+done
+_bannerprincipal
+;;
+
+02) 
+#iniciamos el segundo submenu
+
+opc2=0    
+
+until [ $opc2 -eq 99 ] 
+do   
+	case $opc2 in
+
+01)pkg install nmap -y
+echo -e "\e[1;34m"	
+echo "nmap"
+echo "Nmap INSTALADO"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu2
+
+;;
+
+02)git clone https://github.com/sqlmapproject/sqlmap.git
+echo -e "\e[1;34m"
+echo "cd sqlmap-master;ls"
+echo "chmod +x sqlmap.py;ls"
+echo "python2 sqlmap.py"
+echo "INSTALADO.... "
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu2
+
+;;
+
+03)git clone https://github.com/thelinuxchoice/sqliscan.git
+echo -e "\e[1;34m"
+echo "cd sqliscan"
+echo "chmod +x sqliscan.sh"
+echo "./sqliscan.sh"
+echo "INSTALADO.... "
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu2
+;;
+
+04)git clone https://github.com/sysadminteam/IPscan.git
+echo -e "\e[1;34m"
+echo "cd IPscan"
+echo "chmod +x ipscan.sh"
+echo "./ipscan.sh"
+echo " INSTALADO.... "
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu2
+
+;;
+
+05)git clone https://github.com/XG77Z10/Google-Dork.git
+echo -e "\e[1;34m"
+echo "cd Google-Dork"
+echo "chmod +x Google.py"
+echo "python2 Google.py"
+echo "INSTALADO.... "
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu2
+
+;;
+
+*)
+_submenu2
+
+;;
+
+esac
+read opc2
+done
+_bannerprincipal
+
+;;
+
+
+
+03)
+	#iniciamos el tercer submenu
+	opc3=0
+
+	until [ $opc3 -eq 99 ] 
+	do
+	
+	case $opc3 in
+01)git clone https://github.com/XCHADXFAQ77X/XERXES/
+echo -e "\e[1;34m"	
+echo "apt install clang"
+echo "cd xerxes"
+echo "clang xerxes.c -o xerxes"
+echo " ./xerxes website target 80"
+echo "INSTALADO"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu3
+;;
+
+02)git clone https://github.com/cyweb/hammer.git
+echo -e "\e[1;34m"
+echo "cd hammer;ls"
+echo "chmod +x hammer.py;ls"
+echo "python3 hammer.py"
+echo "ejemplo de uso"
+echo "python3  hammer.py -s 120.39.218.14 -p 80 -t 135"
+echo "Instalado"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu3
+;;
+
+03)git clone https://github.com/grafov/hulk.git
+echo -e "\e[1;34m"	
+echo "cd hulk;ls"
+echo "chmod +x hulk.py;ls"
+echo "ejemplo de uso"
+echo "python2 hulk.py http://exaple.com"
+echo "Hulk Instalado..."
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu3
+
+;;
+
+
+04)https://github.com/Techtushar07/DDos-Attack.git
+echo -e "\e[1;34m"	
+echo "cd DDos-Attack;ls"
+echo "chmod +x ddos-attack.py;ls"
+echo "python2 chmod +x ddos-attack.py;ls"
+echo "DDos-Attack Instalado"
+sleep 3.0
+echo -e "\e[1;36m"
+_submenu3
+
+;;
+
+*)
+_submenu3
+
+esac
+read opc3
+done
+_bannerprincipal
+
+;;
+
+04)
+	#Iniciamos el cuarto submenu
+	opc4=0
+	until [ $opc4 -eq 99 ] 
+ 	do
+	case 	$opc4 in
+
+01)
+wget https://raw.githubusercontent.com/venom-24/venom24_metasploit/refs/heads/main/metasploit.sh    
+
+mv metasploit.sh  ~
+cd ~
+chmod 777 metasploit.sh                                                                                 
+bash metasploit.sh                                                                                        
+printf $cyan
+echo "TRATAMOS DE INICIAR MSFCONSOLE"
+sleep 2.5
+ msfconsole
+
+;;	
+
+02) 
+echo -e "\e[1;36m"
+echo "INSTALANDO ROUTERSPLOIT"
+sleep 2.5
+printf $reset 
+apt update && apt upgrade -y
+pkg install git python clang -y 
+pkg install make -y 
+git clone https://github.com/threat9/routersploit
+ls
+cd $HOME/pack_tools2.0/routersploit
+ls
+
+pip install --upgrade pip
+
+python3 -m pip install -r requirements.txt
+
+python3 -m pip install -r requirements-dev.txt
+
+ls
+chmod +x setup.py
+ls
+python3  setup.py install
+
+ls
+
+python3 rsf.py 
+;;	     	
+
+03)git clone https://github.com/websploit/websploit
+	
+cd $HOME/pack_tools2.0/websploit;ls
+python setup.py install
+websploit
+
+	;;
+
+04)git clone https://github.com/kuburan/txtool
+echo -e "\e[1;34m"	
+echo "cd txtool;ls"
+echo "./install.py"
+echo "txtool"
+echo "Txtool Instalado"
+sleep 3.0
+echo -e "\e[1;36m"
+;;
+
+05)git clone https://github.com/evait-security/weeman.git
+cd $HOME/pack_tools2.0/weeman;ls
+chmod +x weeman.py;ls
+python2 weeman.py
+
+
+;;
+
+06)git clone https://github.com/RexTheGod/A-Rat
+cd $HOME/pack_tools2.0/A-Rat;ls
+chmod +x A-Rat.py;ls
+python2 A-Rat.py
+
+
+;;
+
+*)
+_submenu4
+
+	;;
+esac 
+read opc4
+done
+_bannerprincipal
+
+;;
+
+05)
+	#Iniciamos el quinto submenu
+	opc5=0
+
+	until [ $opc5 -eq 99 ] 
+	do
+		case $opc5 in
+	
+01) 
+printf $cyan
+echo "INSTALANDO S.O. UBUNTU 18.04 LTS"
+sleep 2.0
+printf $reset
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh	
+./start-ubuntu.sh
+;;
+
+02)
+printf $cyan
+echo "INSTALANDO S.O. KALI-LINUX"
+sleep 2.0
+printf $reset
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+./start-kali.sh
+
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh
+;;
+
+*)echo "LO CIENTO TU ELECCION NO ESTA"
+_submenu5
+sleep 3.0
+
+;;
+
+esac
+read opc5
+done
+_bannerprincipal
+
+
+              esac
+              read opc
+              done
+
