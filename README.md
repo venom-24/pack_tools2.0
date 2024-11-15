@@ -48,7 +48,8 @@
 ## screenshot
 <br>
 <p align="center">
-<img width="50%" src="https://i.ibb.co/BfkzZmT/Screensht-20240925-144759-Termux.jpg"/>
+<img width="50%"
+src="https://i.ibb.co/FmKSHZt/Screenshot-20241023-202306-Termux.jpg/>
 <img width="48%" src="https://i.ibb.co/mRkSVz4/Sin-t-tulo64.png"/>
 </p>
 
