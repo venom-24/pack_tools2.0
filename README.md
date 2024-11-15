@@ -50,7 +50,7 @@
 <p align="center">
 <img width="50%"
 src="https://i.ibb.co/ggmMQ1X/Screenshot-20241115-155618-Termux.jpg"/>
-<img width="50%" src="https://i.ibb.co/y5Q9Npr/Screenshot-20241115-175410-Termux.jpg"/>
+<img width="48%" src="https://i.ibb.co/y5Q9Npr/Screenshot-20241115-175410-Termux.jpg"/>
 </p>
 
 ## CONECTATE CON NOSOTROS:
