@@ -49,7 +49,7 @@
 <br>
 <p align="center">
 <img width="50%"
-src="https://i.ibb.co/7yDPHN6/Screenshot-20211105-185917-Termux.jpg"/>
+src="https://i.ibb.co/ggmMQ1X/Screenshot-20241115-155618-Termux.jpg"/>
 <img width="48%" src="https://i.ibb.co/mRkSVz4/Sin-t-tulo64.png"/>
 </p>
 
