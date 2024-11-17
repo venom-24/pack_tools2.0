@@ -31,7 +31,15 @@
 * TERMUX
 ### Requerimientos :
 * Conexion a internet
-* 600 MB De Almacenamiento 
+* 600 MB De Almacenamiento
+  
+### Algunas de las tools
+* Metasploit
+* Weeman
+* Sqlmap
+* IPGeolocation
+* Kali-Linux
+* Ubuntu etc...
 
 ## COMANDOS DE INSTALACION EN TERMUX:
 
