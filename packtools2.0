@@ -433,28 +433,10 @@ echo -e "\e[1;36m"
 echo "INSTALANDO ROUTERSPLOIT"
 sleep 2.5
 printf $reset 
-apt update && apt upgrade -y
-pkg install git python clang -y 
-pkg install make -y 
-git clone https://github.com/threat9/routersploit
-ls
-cd $HOME/pack_tools2.0/routersploit
-ls
-
-pip install --upgrade pip
-
-python3 -m pip install -r requirements.txt
-
-python3 -m pip install -r requirements-dev.txt
-
-ls
-chmod +x setup.py
-ls
-python3  setup.py install
-
-ls
-
-python3 rsf.py 
+git clone https://github.com/venom-24/rsf_venom24.git
+cd rsf_venom24;ls
+chmod +x installer.sh
+bash installer.sh
 ;;	     	
 
 03)git clone https://github.com/websploit/websploit
